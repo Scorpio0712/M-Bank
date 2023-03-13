@@ -7,39 +7,39 @@
     height: 40px;
     left: 105px;
     top: 115px;
-  
+
     /* font-family: "Inter"; */
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
     line-height: 39px;
-  
+
     color: #000000;
   }
-  
+
   #colorPage {
     position: relative;
     width: 390px;
     height: 844px;
-  
+
     background: linear-gradient(
       180deg,
       #a2fede 0%,
       rgba(141, 229, 224, 0.75) 100%
     );
   }
-  
+
   #colorBody {
     position: absolute;
     width: 370px;
     height: 824px;
     left: 10px;
     top: 10px;
-  
+
     background: #ffffff;
     border-radius: 30px;
   }
-  
+
   .nameBox {
     position: absolute;
     width: 285px;
@@ -47,7 +47,7 @@
     left: 45px;
     top: 285px;
   }
-  
+
   .emailBox {
     position: absolute;
     width: 285px;
@@ -55,7 +55,7 @@
     left: 45px;
     top: 349px;
   }
-  
+
   .passBox {
     position: absolute;
     width: 285px;
@@ -63,7 +63,7 @@
     left: 45px;
     top: 413px;
   }
-  
+
   .conpassBox {
     position: absolute;
     width: 285px;
@@ -71,7 +71,7 @@
     left: 45px;
     top: 477px;
   }
-  
+
   .signupSubmit {
     position: absolute;
     width: 140px;
@@ -83,11 +83,11 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 29px;
-  
+
     background: #4acb57;
     border-radius: 30px;
   }
-  
+
   .backPage {
     position: absolute;
     width: 16px;
@@ -95,574 +95,592 @@
     left: 29px;
     top: 46px;
   }
-  
+
   .transferToText {
     position: absolute;
     width: 120px;
     height: 24px;
     left: 40px;
     top: 83px;
-  
+
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-  
+
     color: #000000;
   }
-  
+
   .makeTranText {
     position: absolute;
     width: 140px;
     height: 17px;
     left: 40px;
     top: 129px;
-  
+
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 17px;
     /* identical to box height */
-  
+
     color: #000000;
   }
-  
+
   .accountBankIcon {
     position: absolute;
     width: 78px;
     height: 70px;
     left: 26px;
     top: 165px;
-  
+
     background: url(icons8-open-new-bank-account-78.png);
   }
-  
+
   .accountBankText {
     position: absolute;
     width: 46px;
     height: 32px;
     left: 43px;
     top: 230px;
-  
+
     font-style: normal;
     font-weight: 500;
     font-size: 10px;
     line-height: 150%;
     /* or 15px */
-  
+
     text-align: center;
     letter-spacing: -0.011em;
-  
+
     color: #1e1e1e;
   }
-  
+
   .qrIcon {
     position: absolute;
     width: 60px;
     height: 55px;
     left: 117px;
     top: 175px;
-  
+
     background: url(icons8-qr-code-60.png);
   }
-  
+
   .qrText {
     position: absolute;
     width: 55px;
     height: 15px;
     left: 119px;
     top: 230px;
-  
+
     font-style: normal;
     font-weight: 500;
     font-size: 10px;
     line-height: 150%;
     /* identical to box height, or 15px */
-  
+
     text-align: center;
     letter-spacing: -0.011em;
-  
+
     color: #1e1e1e;
   }
-  
+
   .lineSectionTransfer1 {
     position: absolute;
     width: 335px;
     height: 0px;
     left: 27px;
     top: 275px;
-  
+
     border: 1px solid #4acb57;
   }
-  
+
   .suggestionText {
     position: absolute;
     width: 75px;
     height: 17px;
     left: 40px;
     top: 300px;
-  
+
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 17px;
     /* identical to box height */
-  
+
     color: #000000;
   }
-  
+
   .topInformation {
     position: absolute;
     width: 390px;
     height: 251px;
     left: 0px;
     top: 0px;
-  
+
     background: #c0ffe9;
     border-radius: 0px 0px 10px 10px;
   }
-  
+
   .transferTopicText {
     position: absolute;
     width: 81px;
     height: 22px;
     left: 154px;
     top: 48px;
-  
+
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 150%;
     /* or 30px */
-  
+
     letter-spacing: -0.011em;
-  
+
     color: #1e1e1e;
   }
-  
+
   .byText {
     position: absolute;
     width: 30px;
     height: 30px;
     left: 35px;
     top: 95px;
-  
+
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 150%;
     /* identical to box height, or 30px */
-  
+
     letter-spacing: -0.011em;
-  
+
     color: #000000;
   }
-  
+
   .byPic {
     position: absolute;
     width: 55px;
     height: 55px;
     left: 73px;
     top: 132px;
-  
+
     background: #d9d9d9;
     border-radius: 50%;
   }
-  
+
   .byName {
     position: absolute;
     width: 45px;
     height: 24px;
     left: 140px;
     top: 133px;
-  
+
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     /* identical to box height, or 24px */
-  
+
     letter-spacing: -0.011em;
-  
+
     color: #4acb57;
   }
-  
+
   .byAccount {
     position: absolute;
     width: 104px;
     height: 21px;
     left: 140px;
     top: 151px;
-  
+
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 150%;
     /* identical to box height, or 21px */
-  
+
     letter-spacing: -0.011em;
-  
+
     color: #000000;
   }
-  
+
   .byBalance {
     position: absolute;
     width: 90px;
     height: 21px;
     left: 140px;
     top: 165px;
-  
+
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 150%;
     /* identical to box height, or 21px */
-  
+
     letter-spacing: -0.011em;
-  
+
     color: #000000;
   }
-  
+
   .gotoText {
     position: absolute;
     width: 57px;
     height: 30px;
     left: 35px;
     top: 272px;
-  
+
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 150%;
     /* identical to box height, or 30px */
-  
+
     letter-spacing: -0.011em;
-  
+
     color: #000000;
   }
-  
+
   .gotoPic {
     position: absolute;
     width: 55px;
     height: 55px;
     left: 73px;
     top: 321px;
-  
+
     background: #d9d9d9;
     border-radius: 50%;
   }
-  
-  .gotoName {
-    position: absolute;
-    width: 45px;
-    height: 24px;
-    left: 140px;
-    top: 322px;
-  
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    /* identical to box height, or 24px */
-  
-    letter-spacing: -0.011em;
-  
-    color: #4acb57;
-  }
-  
+
+  // .gotoName {
+  //   position: absolute;
+  //   width: 45px;
+  //   height: 24px;
+  //   left: 140px;
+  //   top: 322px;
+
+  //   font-style: normal;
+  //   font-weight: 500;
+  //   font-size: 16px;
+  //   line-height: 150%;
+  //   /* identical to box height, or 24px */
+
+  //   letter-spacing: -0.011em;
+
+  //   color: #4acb57;
+  // }
+
   .gotoBank {
     position: absolute;
     width: 42px;
     height: 21px;
     left: 140px;
     top: 340px;
-  
+
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 150%;
     /* identical to box height, or 21px */
-  
+
     letter-spacing: -0.011em;
-  
+
     color: #000000;
   }
-  
+
+  .gotoAccountText {
+    position: absolute;
+    width: 335px;
+    height: 0px;
+    left: 35px;
+    top: 385px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+
+    letter-spacing: -0.011em;
+
+    color: #000000;
+  }
+
   .gotoAccount {
     position: absolute;
-    width: 104px;
-    height: 21px;
-    left: 140px;
-    top: 354px;
-  
+    width: 335px;
+    height: 0px;
+    left: 30px;
+    top: 395px;
+
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 150%;
     /* identical to box height, or 21px */
-  
+
     letter-spacing: -0.011em;
-  
+
     color: #000000;
   }
-  
+
   .lineSectionTransfer2 {
     position: absolute;
     width: 335px;
     height: 0px;
     left: 27px;
-    top: 395px;
-  
+    top: 425px;
+
     border: 1.5px solid #4acb57;
   }
-  
+
   .amountText {
     position: absolute;
     width: 56px;
     height: 21px;
     left: 35px;
-    top: 410px;
-  
+    top: 460px;
+
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 150%;
     /* identical to box height, or 21px */
-  
+
     letter-spacing: -0.011em;
-  
+
     color: #000000;
   }
-  
+
   .amountBalance {
     position: absolute;
     width: 335px;
     height: 0px;
     left: 30px;
-    top: 430px;
-  
+    top: 470px;
+
     // border: solid #c5c5c5;
   }
-  
+
   .nextButton {
     /* Ellipse 7 */
-  
+
     position: absolute;
     width: 40px;
     height: 40px;
     left: 332px;
     top: 776px;
   }
-  
+
   .nextText {
     position: absolute;
     width: 31px;
     height: 21px;
     left: 305px;
     top: 785px;
-  
+
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 150%;
     /* identical to box height, or 21px */
-  
+
     letter-spacing: -0.011em;
-  
+
     color: #000000;
   }
-  
+
   .transactionBackground {
     position: relative;
     width: 390px;
     height: 844px;
-  
+
     background: #c0ffe9;
   }
-  
+
   .transactionTopicText {
     position: absolute;
     width: 219px;
     height: 30px;
     left: 85px;
     top: 36px;
-  
+
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 150%;
     /* identical to box height, or 30px */
-  
+
     letter-spacing: -0.011em;
-  
+
     color: #000000;
   }
-  
+
   .transactionDataBox {
     position: absolute;
     width: 351px;
     height: 385px;
     left: 19px;
     top: 82px;
-  
+
     background: #ffffff;
     border-radius: 10px;
   }
-  
+
   .lineDataBox {
     position: absolute;
     width: 35px;
     height: 0px;
     left: 15px;
     top: 105px;
-  
+
     border: 1.5px solid #4acb57;
     transform: rotate(90deg);
   }
-  
+
   .transactionTopicBox {
     position: absolute;
     width: 175px;
     height: 23px;
     left: 40px;
     top: 90px;
-  
+
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
     line-height: 150%;
     /* identical to box height, or 22px */
-  
+
     letter-spacing: -0.011em;
-  
+
     color: #000000;
   }
-  
+
   .lineSectionBox {
     position: absolute;
     width: 330px;
     height: 0px;
     left: 30px;
     top: 137px;
-  
+
     border: 1px solid #000000;
   }
-  
+
   .sendPicBox {
     position: absolute;
     width: 55px;
     height: 55px;
     left: 35px;
     top: 165px;
-  
+
     background: #d9d9d9;
     border-radius: 50%;
   }
-  
+
   .arrowBackBox {
     position: absolute;
     width: 25px;
     height: 25px;
     left: 50px;
     top: 236px;
-  
+
     background: #4acb57;
     border-radius: 50%;
   }
-  
+
   .arrowBox {
     position: absolute;
     width: 16px;
     height: 0px;
     left: 56px;
     top: 238px;
-  
+
     color: #ffffff;
   }
-  
+
   .sendNameBox {
     position: absolute;
     width: 45px;
     height: 24px;
     left: 102px;
     top: 175px;
-  
+
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     /* identical to box height, or 24px */
-  
+
     letter-spacing: -0.011em;
-  
+
     color: #4acb57;
   }
-  
+
   .sendAccountBox {
     position: absolute;
     width: 104px;
     height: 21px;
     left: 102px;
     top: 193px;
-  
+
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 150%;
     /* identical to box height, or 21px */
-  
+
     letter-spacing: -0.011em;
-  
+
     color: #000000;
   }
-  
+
   .receivePicBox {
     position: absolute;
     width: 55px;
     height: 55px;
     left: 35px;
     top: 275px;
-  
+
     background: #d9d9d9;
     border-radius: 27.5px;
   }
-  
+
   .receiveNameBox {
     position: absolute;
     width: 45px;
     height: 24px;
     left: 102px;
     top: 277px;
-  
+
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     /* identical to box height, or 24px */
-  
+
     letter-spacing: -0.011em;
-  
+
     color: #4acb57;
   }
-  
+
   .receiveBankBox {
     position: absolute;
     width: 42px;
     height: 21px;
     left: 102px;
     top: 292px;
-  
+
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 150%;
     /* identical to box height, or 21px */
-  
+
     letter-spacing: -0.011em;
-  
+
     color: #000000;
   }
-  
+
   .receiveAccountBox {
     /* 123-4-56789-0 */
     position: absolute;
@@ -670,182 +688,182 @@
     height: 21px;
     left: 102px;
     top: 306px;
-  
+
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 150%;
     /* identical to box height, or 21px */
-  
+
     letter-spacing: -0.011em;
-  
+
     color: #000000;
   }
-  
+
   .transactionIDBox {
     position: absolute;
     width: 85px;
     height: 18px;
     left: 40px;
     top: 351px;
-  
+
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 150%;
     /* identical to box height, or 18px */
-  
+
     letter-spacing: -0.011em;
-  
+
     color: #000000;
   }
-  
+
   .transactionIDNumberBox {
     position: absolute;
     width: 137px;
     height: 18px;
     left: 108px;
     top: 365px;
-  
+
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 150%;
     /* identical to box height, or 18px */
-  
+
     letter-spacing: -0.011em;
-  
+
     color: #000000;
   }
-  
+
   .lineTransactionIDBox {
     position: absolute;
     width: 200px;
     height: 0px;
     left: 40px;
     top: 375px;
-  
+
     border: 1px solid #a4a4a4;
   }
-  
+
   .amountBox {
     position: absolute;
     width: 48px;
     height: 18px;
     left: 40px;
     top: 385px;
-  
+
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 150%;
     /* identical to box height, or 18px */
-  
+
     letter-spacing: -0.011em;
-  
+
     color: #000000;
   }
-  
+
   .lineAmountBox {
     position: absolute;
     width: 200px;
     height: 0px;
     left: 40px;
     top: 410px;
-  
+
     border: 1px solid #a4a4a4;
   }
-  
+
   .feeBox {
     position: absolute;
     width: 24px;
     height: 18px;
     left: 40px;
     top: 420px;
-  
+
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 150%;
     /* identical to box height, or 18px */
-  
+
     letter-spacing: -0.011em;
-  
+
     color: #000000;
   }
-  
+
   .lineFeeBox {
     position: absolute;
     width: 200px;
     height: 0px;
     left: 40px;
     top: 445px;
-  
+
     border: 1px solid #a4a4a4;
   }
-  
+
   .remainBalance {
     position: absolute;
     width: 166px;
     height: 18px;
     left: 40px;
     top: 480px;
-  
+
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 150%;
     /* identical to box height, or 18px */
-  
+
     letter-spacing: -0.011em;
-  
+
     color: #000000;
   }
-  
+
   .backToHomeButton {
     position: absolute;
     width: 31px;
     height: 31px;
     left: 49px;
     top: 768px;
-  
+
     color: black;
   }
-  
+
   .backToHomeBackGround {
     position: absolute;
     width: 44px;
     height: 44px;
     left: 43px;
     top: 762px;
-  
+
     background: #aaaaaa;
     border-radius: 50%;
   }
-  
+
   .backToHomeText {
     position: absolute;
     width: 92px;
     height: 20px;
     left: 30px;
     top: 810px;
-  
+
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 150%;
     /* or 18px */
-  
+
     letter-spacing: -0.011em;
-  
+
     color: #000000;
   }
-  
+
   .QRPayment2BackGround {
     position: relative;
     width: 390px;
     height: 844px;
-  
+
     background: #b9b9b9;
   }
   .scanSectionTopic {
@@ -854,173 +872,173 @@
     height: 139px;
     left: 0px;
     top: 0px;
-  
+
     background: #b3ffe4;
   }
-  
+
   .scanQRText {
     position: absolute;
     width: 111px;
     height: 24px;
     left: 140px;
     top: 48px;
-  
+
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-  
+
     color: #000000;
   }
-  
+
   .scanTap {
     position: absolute;
     width: 33px;
     height: 17px;
     left: 76px;
     top: 108px;
-  
+
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     /* identical to box height */
-  
+
     color: #000000;
   }
-  
+
   .receiveTap {
     position: absolute;
     width: 52px;
     height: 17px;
     left: 271px;
     top: 108px;
-  
+
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     /* identical to box height */
-  
+
     color: #000000;
   }
-  
+
   .qrBackGround {
     position: absolute;
     width: 273px;
     height: 312px;
     left: 59px;
     top: 266px;
-  
+
     background: #ffffff;
     border-radius: 10px;
   }
-  
+
   .qrTopBackGround {
     position: absolute;
     width: 273px;
     height: 47px;
     left: 59px;
     top: 266px;
-  
+
     background: #113566;
     border-radius: 10px 10px 0px 0px;
   }
-  
+
   .qrTopLogo {
     position: absolute;
     width: 100px;
     height: 100px;
     left: 59px;
     top: 266px;
-  
+
     background: url(UI-Banking2.png);
   }
-  
+
   .qrCode {
     position: absolute;
     width: 131px;
     height: 131px;
     left: 130px;
     top: 356px;
-  
+
     background: #d9d9d9;
   }
-  
+
   .scanQRToTransferText {
     position: absolute;
     width: 175px;
     height: 15px;
     left: 117px;
     top: 506px;
-  
+
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
     /* identical to box height */
-  
+
     color: #000000;
   }
-  
+
   .scanNameText {
     position: absolute;
     width: 74px;
     height: 15px;
     left: 158px;
     top: 521px;
-  
+
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
     /* identical to box height */
-  
+
     color: #000000;
   }
-  
+
   .scanAccountText {
     position: absolute;
     width: 157px;
     height: 15px;
     left: 125px;
     top: 535px;
-  
+
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
     /* identical to box height */
-  
+
     color: #000000;
   }
-  
+
   .footerButton {
     position: absolute;
     width: 390px;
     height: 53px;
     left: 0px;
     top: 791px;
-  
+
     background: #b3ffe4;
   }
-  
+
   .saveButton {
     position: absolute;
     width: 18px;
     height: 22px;
     left: 80px;
     top: 790px;
-  
+
     // background: url(download.png);
   }
-  
+
   .shareButton {
     position: absolute;
     width: 24px;
     height: 24px;
     left: 287px;
     top: 790px;
-  
+
     // background: url(share.png);
   }

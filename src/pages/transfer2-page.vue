@@ -17,12 +17,19 @@
       <p class="byBalance">999,999 Baht</p>
       <p class="gotoText">Go to:</p>
       <p class="gotoPic"></p>
-      <p class="gotoName">Name</p>
       <p class="gotoBank">KBank</p>
-      <p class="gotoAccount">123-4-56789-0</p>
-      <hr class="lineSectionTransfer2" />
+      <p class="gotoAccountText">Account Number</p>
+      <q-input
+        class="gotoAccount"
+        v-model="text"
+        mask="###-#-#####-#"
+        fill-mask="X"
+        reverse-fill-mask
+        input-class="text-right"
+      />
+      <!-- <hr class="lineSectionTransfer2"/> -->
       <p class="amountText">Amount:</p>
-      <hr class="lineSectionTransfer2" />
+      <!-- <hr class="lineSectionTransfer2" /> -->
       <q-input
         class="amountBalance"
         v-model="price"
