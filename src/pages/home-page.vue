@@ -1,56 +1,40 @@
 <template>
-  <q-layout view="hHh Lpr fFf">
-    <!-- Be sure to play with the Layout demo on docs -->
-
-    <!-- (Optional) The Header -->
-    <q-header elevated>
-      <q-toolbar>
-        <q-btn flat round dense icon="menu" @click="toggleLeftDrawer" />
-
-        <q-toolbar-title> Header </q-toolbar-title>
-      </q-toolbar>
-
-      <q-tabs>
-        <q-route-tab icon="map" to="/your/route" replace label="One Tab" />
-        <q-route-tab
-          icon="assignment"
-          to="/some/other/route"
-          replace
-          label="Other Tab"
-        />
-      </q-tabs>
-    </q-header>
-
-    <!-- (Optional) The Footer -->
-    <q-footer>
-      <q-tabs switch-indicator>
-        <q-route-tab icon="login" to="/signup" replace label="Sign up" />
-        <q-route-tab
-          icon="bi-arrow-left-circle"
-          to="/transfer"
-          replace
-          label="Transfer"
-        />
-      </q-tabs>
-
-      <q-toolbar>
-        <q-btn flat round dense icon="menu" @click="toggleLeftDrawer" />
-        <q-toolbar-title> Footer </q-toolbar-title>
-      </q-toolbar>
-    </q-footer>
-
-    <!-- (Optional) A Drawer; you can add one more with side="right" or change this one's side -->
-    <q-drawer v-model="leftDrawerOpen" side="left" bordered class="bg-grey-2">
-      <!-- QScrollArea is optional -->
-      <q-scroll-area class="fit q-pa-sm">
-        <!-- Content here -->
-      </q-scroll-area>
-    </q-drawer>
-
-    <q-page-container>
-      <!-- This is where pages get injected -->
-      <router-view />
-    </q-page-container>
+  <q-layout view="hHh Lpr fFf" class="colorPageHome">
+    <p class="homeSectionTop"></p>
+    <p class="userPic"></p>
+    <p class="userBalance">฿ 999,999</p>
+    <p class="userAccount">Account: 123-4-56789-0</p>
+    <q-btn flat round dense icon="bi-gear" label="Setting" class="settingApp" />
+    <p class="newsTopic">News</p>
+    <p class="newsSection"></p>
+    <p class="lineSectionHome"></p>
+    <p class="historyTopic">History</p>
+    <div>
+      <q-carousel v-model="slide" transition-prev="scale" transition-next="scale" swipeable animated control-color="white"
+        navigation padding arrows class="historyCard text-white shadow-1 rounded-borders">
+        <q-carousel-slide name="style" class="column no-wrap flex-center">
+          <q-icon name="style" size="56px" />
+          <div class="q-mt-md text-center">
+            {{ lorem }}
+          </div>
+        </q-carousel-slide>
+        <q-carousel-slide name="tv" class="column no-wrap flex-center">
+          <q-icon name="live_tv" size="56px" />
+          <div class="q-mt-md text-center">
+            {{ lorem }}
+          </div>
+        </q-carousel-slide>
+        <q-carousel-slide name="layers" class="column no-wrap flex-center">
+          <q-icon name="layers" size="56px" />
+          <div class="q-mt-md text-center">
+            {{ lorem }}
+          </div>
+        </q-carousel-slide>
+      </q-carousel>
+    </div>
+    <p class="homeSectionFooter"></p>
+    <q-btn flat round dense icon="bi-house" label="Home" class="homeButton" to="home" />
+    <q-btn flat round dense icon="bi-arrow-left-right" label="Transfer" class="transferButton" to="transfer1"/>
   </q-layout>
 </template>
 
@@ -59,15 +43,15 @@ import { ref } from 'vue'
 
 export default {
   // name: 'LayoutName',
-
   setup () {
     const leftDrawerOpen = ref(false)
-
     return {
       leftDrawerOpen,
       toggleLeftDrawer () {
         leftDrawerOpen.value = !leftDrawerOpen.value
-      }
+      },
+      slide: ref('style'),
+      lorem: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.'
     }
   }
 }

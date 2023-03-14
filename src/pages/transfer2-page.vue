@@ -6,7 +6,7 @@
         flat
         class="backPage"
         icon="bi-arrow-left-circle"
-        to="/transfer"
+        to="/selectbank"
         style="color: #4acb57"
       />
       <p class="transferTopicText">Transfer</p>

@@ -1,6 +1,6 @@
 <template>
-  <div id="colorPage">
-    <div id="colorBody">
+  <div class="colorPage">
+    <div class="colorBody">
       <div class="q-gutter q-pa" id="signUp">Sign up</div>
       <q-form @submit="onSubmit">
         <q-input

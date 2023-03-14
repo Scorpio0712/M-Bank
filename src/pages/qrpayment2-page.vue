@@ -10,9 +10,9 @@
       to="/home"
       style="color: #4acb57"
     />
-
-    <q-btn to="/your/route" flat label="Scan" class="scanTap" />
-    <q-btn to="/some/other/route" flat label="Receive" class="receiveTap" />
+    <hr class="underLineReceive">
+    <q-btn to="qr" flat label="Scan" class="scanTap" />
+    <q-btn  flat label="Receive" class="receiveTap" />
     <p class="qrBackGround"></p>
     <p class="qrTopBackGround"></p>
     <p class="qrTopLogo"></p>

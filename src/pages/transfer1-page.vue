@@ -13,9 +13,9 @@
       <p class="makeTranText">Make a Transaction</p>
     </div>
     <div class="q-pa-md q-gutter-sm">
-      <q-btn flat class="accountBankIcon" to="/transfer2" />
+      <q-btn flat class="accountBankIcon" to="/selectbank" />
       <p class="accountBankText">Account Banking</p>
-      <q-btn flat class="qrIcon" to="/MyQR" />
+      <q-btn flat class="qrIcon" to="/qr" />
       <p class="qrText">QR Payment</p>
     </div>
 

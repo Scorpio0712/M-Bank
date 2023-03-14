@@ -10,12 +10,13 @@
       to="/home"
       style="color: #4acb57"
     />
+    <hr class="underLineScan">
 
-    <q-btn to="/your/route" flat label="Scan" class="scanTap" />
-    <q-btn to="/some/other/route" flat label="Receive" class="receiveTap" />
+    <q-btn flat label="Scan" class="scanTap" />
+    <q-btn to="qr2" flat label="Receive" class="receiveTap" />
     <p class="footerButton"></p>
-    <q-btn to="" flat label="Save" class="saveButton" icon="save" />
-    <q-btn to="" flat label="Share" class="shareButton" icon="share" />
+    <p class="scanExplainText">Place QR/Barcode within provided area.</p>
+    p.
   </q-layout>
 
 </template>
